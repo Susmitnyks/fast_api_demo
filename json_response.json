@@ -1,0 +1,30 @@
+{
+  "success": false,
+  "message": "Login successful",
+  "user": {
+    "id": "1234",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "mobile_number": "555-555-5555",
+    "is_active": true,
+    "role": "user",
+    "bank_data": [
+      {
+        "bank_name": "UNO",
+        "account_number": "1234567890",
+        "routing_number": "012345678"
+      },
+      {
+        "bank_name": "UNO",
+        "account_number": "3453453453",
+        "routing_number": "3453466669"
+      }
+    ],
+    "company_data": {
+      "company_name": "Acme Corporation",
+      "employee_id": "ACME-123",
+      "department": "IT"
+    },
+    "token": "seyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5csdfsdfsdf"
+  }
+}
